@@ -1,0 +1,3 @@
+function e(e,n){return new Promise(function(t,c){var o=function(){t("It was ".concat(n," on the element: ").concat(e.nodeName,", id: ").concat(e.id,".")),e.removeEventListener(n,o)};e.addEventListener(n,o)})}var n=function(e){var n=document.createElement("div");n.className="message",n.innerText=e,document.body.appendChild(n)},t=document.getElementById("login"),c=document.getElementById("password"),o=document.getElementById("submit");e(t,"click").then(n),e(c,"click").then(n),e(o,"click").then(n),e(t,"input").then(n),e(c,"input").then(n),e(t,"blur").then(n),e(c,"blur").then(n),e(o,"blur").then(n),document.querySelector("body").style.columnGap="10px";//# sourceMappingURL=index.9517278e.js.map
+
+//# sourceMappingURL=index.9517278e.js.map
